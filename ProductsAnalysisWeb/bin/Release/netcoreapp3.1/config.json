@@ -1,0 +1,5 @@
+{
+	"ConnectionStrings": {
+		"DB": "server=(localdb)\\MSSQLLocalDB;Database=Rozetka.DB;Trusted_Connection=True;MultipleActiveResultSets=true"
+	}
+} 
