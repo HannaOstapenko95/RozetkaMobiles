@@ -13,6 +13,7 @@
         {
             <div class="alert alert-success">@Model.Message</div>
         }
+
         <div class="row">
             <div class="col-md-8 mb-4">
                 <p>If you have a question, please contact us!</p>
@@ -21,33 +22,33 @@
                     <div class="control-group form-group">
                         <div class="controls">
                             <label asp-for="Contact.Name">Name:</label>
-                            <input asp-for="Contact.Name" class="form-control">
+                            <input id="contactName" asp-for="Contact.Name" class="form-control">
                             <span style="color: red" asp-validation-for="Contact.Name">  </span>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label asp-for="Contact.Phone">Phone:</label>
-                            <input asp-for="Contact.Phone" class="form-control">
+                            <input id="contactPhone" asp-for="Contact.Phone" class="form-control">
                             <span style="color: red" asp-validation-for="Contact.Phone">  </span>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label asp-for="Contact.Email">Email:</label>
-                            <input asp-for="Contact.Email" class="form-control">
+                            <input id="contactEmail" asp-for="Contact.Email" class="form-control">
                             <span style="color: red" asp-validation-for="Contact.Email">  </span>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label asp-for="Contact.Message">Message:</label>
-                            <textarea asp-for="Contact.Message" rows="10" cols="100" class="form-control"></textarea>
+                            <textarea id="contactMessage" asp-for="Contact.Message" rows="10" cols="100" class="form-control"></textarea>
                             <span style="color: red" asp-validation-for="Contact.Message">  </span>
                         </div>
                     </div>
                     <div id="success"></div>
-                    <button type="submit" class="btn btn-success" id="sendMessageButton">Send Message!</button>
+                    <button id="sendMessageButton" type="submit" class="btn btn-success" id="sendMessageButton">Send Message!</button>
                 </form>
             </div>
             <div class="col-md-4">
