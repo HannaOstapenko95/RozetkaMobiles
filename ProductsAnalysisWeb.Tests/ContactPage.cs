@@ -34,6 +34,9 @@ namespace ProductsAnalysisWeb.Tests
 
         [FindsBy(How = How.ClassName, Using = "field-validation-error")]
         private IWebElement _phoneValidation;
+
+        [FindsBy(How = How.ClassName, Using = "field-validation-error")]
+        private IWebElement _nameValidation;
         public ContactPage(IWebDriver driver)
         {
             _driver = driver;
@@ -76,13 +79,15 @@ namespace ProductsAnalysisWeb.Tests
         public string PhoneValidation =>
              _phoneValidation.Text;
 
+        public string NameValidation =>
+             _nameValidation.Text;
+
         public void SubmitMessage()
         {
             _submit.Click();
         }
         public ConfirmationPage SubmitApplication()
         {
-            //_driver.FindElement(By.CssSelector(".btn.btn-primary")).Click();
             _submit.Click();
             return new ConfirmationPage(_driver);
         }

@@ -72,6 +72,14 @@ namespace ProductsAnalysisWeb.Tests
             Assert.Equal(phoneValidation, _contactPage.PhoneValidation);
         }
 
+        [Then(@"I should see ""(.*)"" text under Name field")]
+        public void ThenIShouldSeeTextUnderNameField(string nameValidation)
+        {
+            _output.WriteLine("Expected - " + nameValidation + "\nActual - " + _contactPage.PhoneValidation);
+            Assert.Equal(nameValidation, _contactPage.PhoneValidation);
+        }
+
+
         [AfterScenario]
         public void DisposeWebDriver()
         {
