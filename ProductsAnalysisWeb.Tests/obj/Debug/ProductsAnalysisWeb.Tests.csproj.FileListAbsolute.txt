@@ -38,7 +38,7 @@ D:\C\Rozetka\ProductsAnalysisWeb.Tests\bin\Debug\xunit.assert.xml
 D:\C\Rozetka\ProductsAnalysisWeb.Tests\bin\Debug\xunit.core.xml
 D:\C\Rozetka\ProductsAnalysisWeb.Tests\bin\Debug\xunit.execution.desktop.xml
 D:\C\Rozetka\ProductsAnalysisWeb.Tests\bin\Debug\Xunit.SkippableFact.xml
-D:\C\Rozetka\ProductsAnalysisWeb.Tests\obj\Debug\ProductsAnalysisWeb.Tests.csprojAssemblyReference.cache
 D:\C\Rozetka\ProductsAnalysisWeb.Tests\obj\Debug\ProductsAnalysisWeb.Tests.csproj.CopyComplete
 D:\C\Rozetka\ProductsAnalysisWeb.Tests\obj\Debug\ProductsAnalysisWeb.Tests.dll
 D:\C\Rozetka\ProductsAnalysisWeb.Tests\obj\Debug\ProductsAnalysisWeb.Tests.pdb
+D:\C\Rozetka\ProductsAnalysisWeb.Tests\obj\Debug\ProductsAnalysisWeb.Tests.csprojAssemblyReference.cache

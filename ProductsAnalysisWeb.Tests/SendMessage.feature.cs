@@ -84,13 +84,13 @@ namespace ProductsAnalysisWeb.Tests
         [Xunit.SkippableFactAttribute(DisplayName="Send valid message")]
         [Xunit.TraitAttribute("FeatureTitle", "SendingMessage")]
         [Xunit.TraitAttribute("Description", "Send valid message")]
-        [Xunit.TraitAttribute("Category", "mytag")]
+        [Xunit.TraitAttribute("Category", "validTests")]
         public virtual void SendValidMessage()
         {
             string[] tagsOfScenario = new string[] {
-                    "mytag"};
+                    "validTests"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Send valid message", null, new string[] {
-                        "mytag"});
+                        "validTests"});
 #line 7
 this.ScenarioInitialize(scenarioInfo);
 #line hidden

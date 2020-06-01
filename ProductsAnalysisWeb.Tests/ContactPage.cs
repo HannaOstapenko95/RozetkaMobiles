@@ -26,11 +26,17 @@ namespace ProductsAnalysisWeb.Tests
         [FindsBy(How = How.Id, Using = "contactEmail")]
         private IWebElement _contactEmail;
 
+        [FindsBy(How = How.Id, Using = "sendEmailField")]
+        private IWebElement _subscriberEmail;
+
         [FindsBy(How = How.Id, Using = "contactMessage")]
         private IWebElement _contactMessage;
 
         [FindsBy(How = How.Id, Using = "sendMessageButton")]
         private IWebElement _submit;
+
+        [FindsBy(How = How.Id, Using = "joinEmail")]
+        private IWebElement _join;
 
         [FindsBy(How = How.ClassName, Using = "field-validation-error")]
         private IWebElement _phoneValidation;
@@ -69,6 +75,13 @@ namespace ProductsAnalysisWeb.Tests
                 _contactEmail.SendKeys(value);
             }
         }
+        public string SubscriberEmail
+        {
+            set
+            {
+                _subscriberEmail.SendKeys(value);
+            }
+        }
         public string Message
         {
             set
@@ -89,6 +102,11 @@ namespace ProductsAnalysisWeb.Tests
         public ConfirmationPage SubmitApplication()
         {
             _submit.Click();
+            return new ConfirmationPage(_driver);
+        }
+        public ConfirmationPage SubmitEmail()
+        {
+            _join.Click();
             return new ConfirmationPage(_driver);
         }
 

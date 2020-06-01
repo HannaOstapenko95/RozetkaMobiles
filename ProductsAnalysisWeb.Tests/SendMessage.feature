@@ -3,7 +3,7 @@
 	As a user of website
 	I want to be send message to website administrator
 
-@mytag
+@validTests
 Scenario: Send valid message
 	Given I am on the Contact page
 	And I have entered Hanna into the Name field

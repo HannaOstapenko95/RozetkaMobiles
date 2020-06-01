@@ -10,7 +10,12 @@ namespace ProductsAnalysisWeb.Tests
     [Binding]
     public class SendingMessageSteps
     {
-        private readonly ScenarioContext context;
+        //[BeforeScenario]
+        //public void DisposeWebDriver()
+        //{
+        //    _driver.Dispose();
+        //}
+
         private IWebDriver _driver;
         private ContactPage _contactPage;
         private ConfirmationPage _confirmationPage;
@@ -71,14 +76,6 @@ namespace ProductsAnalysisWeb.Tests
             _output.WriteLine("Expected - " + phoneValidation + "\nActual - " + _contactPage.PhoneValidation);
             Assert.Equal(phoneValidation, _contactPage.PhoneValidation);
         }
-
-        [Then(@"I should see ""(.*)"" text under Name field")]
-        public void ThenIShouldSeeTextUnderNameField(string nameValidation)
-        {
-            _output.WriteLine("Expected - " + nameValidation + "\nActual - " + _contactPage.PhoneValidation);
-            Assert.Equal(nameValidation, _contactPage.PhoneValidation);
-        }
-
 
         [AfterScenario]
         public void DisposeWebDriver()
