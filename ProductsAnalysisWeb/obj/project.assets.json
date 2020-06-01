@@ -8954,11 +8954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C\\Rozetka\\ProductsAnalysisWeb\\ProductsAnalysisWeb.csproj",
+      "projectUniqueName": "D:\\C\\Rozetka\\RozetkaMobiles\\ProductsAnalysisWeb\\ProductsAnalysisWeb.csproj",
       "projectName": "ProductsAnalysisWeb",
-      "projectPath": "D:\\C\\Rozetka\\ProductsAnalysisWeb\\ProductsAnalysisWeb.csproj",
+      "projectPath": "D:\\C\\Rozetka\\RozetkaMobiles\\ProductsAnalysisWeb\\ProductsAnalysisWeb.csproj",
       "packagesPath": "C:\\Users\\Hanna\\.nuget\\packages\\",
-      "outputPath": "D:\\C\\Rozetka\\ProductsAnalysisWeb\\obj\\",
+      "outputPath": "D:\\C\\Rozetka\\RozetkaMobiles\\ProductsAnalysisWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8977,8 +8977,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\C\\Rozetka\\Rozetka\\Rozetka.csproj": {
-              "projectPath": "D:\\C\\Rozetka\\Rozetka\\Rozetka.csproj"
+            "D:\\C\\Rozetka\\RozetkaMobiles\\Rozetka\\Rozetka.csproj": {
+              "projectPath": "D:\\C\\Rozetka\\RozetkaMobiles\\Rozetka\\Rozetka.csproj"
             }
           }
         }
